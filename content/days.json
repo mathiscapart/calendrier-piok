@@ -1,0 +1,83 @@
+[
+  { "jour": 1, "titre": "Bienvenue sur le chemin", "pierre": null, "blocs": [
+    { "type": "texte", "html": "<p>Mathis t'explique comment marche le calendrier, et Malo te présente les itinéraires.</p>" },
+    { "type": "video", "src": "01-video-explicative.mp4" }
+  ]},
+  { "jour": 2, "titre": "Sur le chemin de l'école", "pierre": "verte", "blocs": [
+    { "type": "youtube", "id": "jsyDtye0B7E" },
+    { "type": "plusloin", "liens": [{"url": "https://www.unesco.org/archives/multimedia/document-4723", "titre": "Sur le chemin de l’école, le documentaire", "source": "UNESCO, extrait de 7 min"}] }
+  ]},
+  { "jour": 3, "titre": "Citation n°1", "pierre": null, "blocs": [
+    { "type": "citation", "texte": "On n’arrive pas au sommet en dépassant les autres, mais en se dépassant soi-même.", "picto": "cairn" }
+  ]},
+  { "jour": 4, "titre": "Compostelle", "pierre": "blanche", "blocs": [
+    { "type": "youtube", "id": "jPz6C3ezSX4" },
+    { "type": "plusloin", "note": "Envie de voir le film en entier ? Demande à Mathis." }
+  ]},
+  { "jour": 5, "titre": "Ton itinéraire", "pierre": null, "blocs": [
+    { "type": "texte", "html": "<p>Prends un moment pour réfléchir à ton projet. Pas besoin d’écrire : garde tes réponses en tête, ou parles-en avec ton binôme.</p><ul class=\"questions\"><li>Quel est l’itinéraire que tu souhaites réaliser ?</li><li>Quel est ton planning prévisionnel pour réaliser ton itinéraire ?</li></ul><p>Puis fixe-toi un objectif pour le 22 décembre : ce jour-là, on fera le point ensemble.</p>" },
+    { "type": "objectif" }
+  ]},
+  { "jour": 6, "titre": "2e dimanche de l'Avent", "pierre": null, "blocs": [
+    { "type": "youtube", "id": "f5ByHb8PmBM" }
+  ]},
+  { "jour": 7, "titre": "Kaizen", "pierre": "jaune", "blocs": [
+    { "type": "youtube", "id": "6VgKYd0JWq4" },
+    { "type": "plusloin", "liens": [{"url": "https://www.youtube.com/watch?v=wrFsapf0Enk", "titre": "KAIZEN : 1 an pour gravir l’Everest", "source": "Inoxtag, le film complet"}] }
+  ]},
+  { "jour": 8, "titre": "Le jeune homme et son chien", "pierre": "violette", "blocs": [
+    { "type": "youtube", "id": "3XA0bB79oGc" }
+  ]},
+  { "jour": 9, "titre": "Être et avoir un binôme", "pierre": null, "blocs": [
+    { "type": "texte", "html": "<p class=\"accroche\">Le binôme n'est pas là pour juger.</p><p>Le binôme est là pour :</p><ul><li>aider à choisir un itinéraire-action,</li><li>soutenir et motiver,</li><li>conseiller,</li><li>aider à choisir une ou des actions réalisables et adaptées,</li><li>aider dans l'organisation de cette action,</li><li>aider à faire le point lors d'entretiens.</li></ul>" }
+  ]},
+  { "jour": 10, "titre": "Citation n°2", "pierre": null, "blocs": [
+    { "type": "citation", "texte": "Si tu ne sais pas ce qui est possible pour ta vie, alors agis la réponse sera toujours dans l’action.", "picto": "montagne" }
+  ]},
+  { "jour": 11, "titre": "Les mouvements lycéens", "pierre": "bleue", "blocs": [
+    { "type": "youtube", "id": "IKELe7WKV6A", "start": 12 }
+  ]},
+  { "jour": 12, "titre": "Défi Lumière de la Paix de Bethléem", "pierre": "rouge", "blocs": [
+    { "type": "lien", "url": "https://lumiere.mathiscapart.xyz/", "picto": "bougie", "titre": "Allume ta lumière", "texte": "En ligne, puis fais-la passer à quelqu'un.", "label": "Allumer la Lumière" }
+  ]},
+  { "jour": 13, "titre": "3e dimanche de l'Avent", "pierre": null, "blocs": [
+    { "type": "youtube", "id": "jaAd3bcL_lI" }
+  ]},
+  { "jour": 14, "titre": "Espoir adapté", "pierre": "blanche", "blocs": [
+    { "type": "texte", "html": "<p>Grand Corps Malade.</p>" },
+    { "type": "youtube", "id": "KREpxoLPL6M" }
+  ]},
+  { "jour": 15, "titre": "Le Père Noël", "pierre": null, "blocs": [
+    { "type": "youtube", "id": "" }
+  ]},
+  { "jour": 16, "titre": "La métaphore du chemin", "pierre": null, "blocs": [
+    { "type": "texte", "html": "<ul class=\"questions\"><li>C'est quoi pour moi un chemin ?</li><li>Qu'est-ce que je mets dans mon sac à dos pour préparer mon itinéraire ?</li><li>Sur quoi vais-je me dépasser ?</li><li>De quoi ai-je besoin pour cela ?</li></ul>" }
+  ]},
+  { "jour": 17, "titre": "Citation n°3", "pierre": null, "blocs": [
+    { "type": "citation", "texte": "Je ne perds jamais : soit je gagne, soit j’apprends.", "auteur": "Nelson Mandela", "picto": "etoile" }
+  ]},
+  { "jour": 18, "titre": "Partage la Lumière en vrai", "pierre": "rouge", "blocs": [
+    { "type": "texte", "html": "<p class=\"accroche\">Défi : d'ici Noël, partage la Lumière de la Paix de Bethléem en vrai.</p><p>Apporte-la à quelqu'un : un voisin, ta famille, une personne seule, une paroisse…</p>" }
+  ]},
+  { "jour": 19, "titre": "Échappe à l'IA", "pierre": "bleue", "blocs": [
+    { "type": "lien", "url": "https://echappe.mathiscapart.xyz/", "picto": "boussole", "titre": "Un jeu en ligne sur l'IA", "label": "Jouer" },
+    { "type": "plusloin", "liens": [{"url": "https://www.youtube.com/watch?v=ZSvt0NoOlDY", "titre": "Le scénario catastrophe qui arrive avec l’IA", "source": "HugoDécrypte, avec Yoshua Bengio"},{"url": "https://www.youtube.com/watch?v=UKftOH54iNU", "titre": "carmen", "source": "Stromae, clip officiel"}] }
+  ]},
+  { "jour": 20, "titre": "4e dimanche de l'Avent", "pierre": null, "blocs": [
+    { "type": "youtube", "id": "DvUW_oz1FK4" }
+  ]},
+  { "jour": 21, "titre": "Défi en binôme", "pierre": null, "blocs": [
+    { "type": "texte", "html": "<p class=\"accroche\">Défi : d'ici mercredi, je fais un bilan avec mon binôme sur nos itinéraires.</p>" }
+  ]},
+  { "jour": 22, "titre": "Où en es-tu ?", "pierre": "jaune", "blocs": [
+    { "type": "bilan" },
+    { "type": "texte", "html": "<p class=\"accroche\">Défi physique : fais une sortie nature d'1 h sans téléphone et prends une photo d'un cairn ou d'un paysage.</p>" }
+  ]},
+  { "jour": 23, "titre": "Cohezun", "pierre": "verte", "blocs": [
+    { "type": "youtube", "id": "nK7eNmwU4gw" }
+  ]},
+  { "jour": 24, "titre": "Le cairn", "pierre": null, "blocs": [
+    { "type": "image", "src": "24-cairn.jpg", "alt": "Un cairn" },
+    { "type": "lien", "url": "https://mapetiterando.fr/conseils/les-dangers-meconnus-des-cairns-en-randonnee-pourquoi-il-faut-absolument-les-eviter/", "picto": "cairn", "titre": "Les dangers méconnus des cairns", "texte": "Pourquoi il vaut mieux ne pas en construire en randonnée.", "label": "Lire l'article" }
+  ]}
+]
