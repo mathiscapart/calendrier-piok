@@ -1,0 +1,75 @@
+name: piok
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        NODE_VERSION: ${NODE_VERSION:?NODE_VERSION manquant}
+    image: piok:${APP_VERSION:?APP_VERSION manquant}
+    environment:
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
+      UNLOCK_ALL: ${UNLOCK_ALL:-false}
+      CALENDAR_YEAR: ${CALENDAR_YEAR:-}
+    volumes:
+      - ./content:/app/content:ro
+      - piok-data:/data
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    labels:
+      - "piok.expose=true"
+      - "traefik.enable=true"
+      - "traefik.docker.network=piok_internal"
+      - "traefik.http.routers.piok.rule=Host(`${PIOK_DOMAIN:?PIOK_DOMAIN manquant}`)"
+      - "traefik.http.routers.piok.entrypoints=web"
+      - "traefik.http.routers.piok.service=piok"
+      - "traefik.http.routers.piok.middlewares=piok-headers"
+      - "traefik.http.middlewares.piok-headers.headers.stsSeconds=31536000"
+      - "traefik.http.middlewares.piok-headers.headers.stsIncludeSubdomains=true"
+      - "traefik.http.middlewares.piok-headers.headers.forceSTSHeader=true"
+      - "traefik.http.middlewares.piok-headers.headers.frameDeny=true"
+      - "traefik.http.middlewares.piok-headers.headers.contentTypeNosniff=true"
+      - "traefik.http.middlewares.piok-headers.headers.referrerPolicy=strict-origin-when-cross-origin"
+      - "traefik.http.services.piok.loadbalancer.server.port=3000"
+    networks: [internal]
+    restart: unless-stopped
+
+  traefik:
+    image: traefik:${TRAEFIK_VERSION:?TRAEFIK_VERSION manquant}
+    command:
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.docker.constraints=Label(`piok.expose`,`true`)"
+      - "--providers.docker.network=piok_internal"
+      - "--entrypoints.web.address=:80"
+      - "--ping=true"
+      - "--log.level=INFO"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    healthcheck:
+      test: ["CMD", "traefik", "healthcheck", "--ping"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+    networks: [internal, tunnel]
+    restart: unless-stopped
+
+  cloudflared:
+    image: cloudflare/cloudflared:${CLOUDFLARED_VERSION:?CLOUDFLARED_VERSION manquant}
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${CLOUDFLARE_TUNNEL_TOKEN:?CLOUDFLARE_TUNNEL_TOKEN manquant}
+    depends_on:
+      traefik:
+        condition: service_healthy
+    networks: [tunnel]
+    restart: unless-stopped
+
+volumes:
+  piok-data:
+
+networks:
+  internal:
+    internal: true
+  tunnel:

@@ -1,0 +1,6 @@
+.env*
+!.env.example
+data/
+node_modules/
+content/media/*
+!content/media/LISEZMOI.md
