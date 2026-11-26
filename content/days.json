@@ -73,7 +73,8 @@
     { "type": "bilan" },
     { "type": "texte", "html": "<p class=\"accroche\">Défi physique : fais une sortie nature d'1 h sans téléphone et prends une photo d'un cairn ou d'un paysage.</p>" }
   ]},
-  { "jour": 23, "titre": "Cohezun", "pierre": "verte", "blocs": [
+  { "jour": 23, "titre": "Cohezún", "pierre": "verte", "blocs": [
+    { "type": "texte", "html": "<p class=\"accroche\">Curieux d'en savoir plus sur l'expérience compagnon d'un te des chefs ? Regarde ce court-métrage réalisé par leurs soins et découvre ce que tu peux vivre grâce au scoutisme !</p>" },
     { "type": "youtube", "id": "nK7eNmwU4gw" }
   ]},
   { "jour": 24, "titre": "Le cairn", "pierre": null, "blocs": [
