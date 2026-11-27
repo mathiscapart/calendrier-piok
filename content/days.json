@@ -8,7 +8,8 @@
     { "type": "plusloin", "liens": [{"url": "https://www.unesco.org/archives/multimedia/document-4723", "titre": "Sur le chemin de l’école, le documentaire", "source": "UNESCO, extrait de 7 min"}] }
   ]},
   { "jour": 3, "titre": "Citation n°1", "pierre": null, "blocs": [
-    { "type": "citation", "texte": "On n’arrive pas au sommet en dépassant les autres, mais en se dépassant soi-même.", "picto": "cairn" }
+    { "type": "citation", "texte": "On n’arrive pas au sommet en dépassant les autres, mais en se dépassant soi-même.", "picto": "cairn" },
+    { "type": "texte", "html": "<ul class=\"questions\"><li>Aujourd’hui, avec qui ai-je tendance à me comparer ?</li><li>Qu’est-ce que cette comparaison m’apporte, ou me retire ?</li><li>Quel est mon « sommet » à moi, celui que j’ai envie d’atteindre ?</li><li>Quel petit pas puis-je faire pour me dépasser, moi, cette semaine ?</li></ul>" }
   ]},
   { "jour": 4, "titre": "Compostelle", "pierre": "blanche", "blocs": [
     { "type": "youtube", "id": "jPz6C3ezSX4" },
@@ -32,7 +33,8 @@
     { "type": "texte", "html": "<p class=\"accroche\">Le binôme n'est pas là pour juger.</p><p>Le binôme est là pour :</p><ul><li>aider à choisir un itinéraire-action,</li><li>soutenir et motiver,</li><li>conseiller,</li><li>aider à choisir une ou des actions réalisables et adaptées,</li><li>aider dans l'organisation de cette action,</li><li>aider à faire le point lors d'entretiens.</li></ul>" }
   ]},
   { "jour": 10, "titre": "Citation n°2", "pierre": null, "blocs": [
-    { "type": "citation", "texte": "Si tu ne sais pas ce qui est possible pour ta vie, alors agis la réponse sera toujours dans l’action.", "picto": "montagne" }
+    { "type": "citation", "texte": "Si tu ne sais pas ce qui est possible pour ta vie, alors agis la réponse sera toujours dans l’action.", "picto": "montagne" },
+    { "type": "texte", "html": "<ul class=\"questions\"><li>Qu’est-ce que j’hésite à tenter parce que je ne sais pas si j’en suis capable ?</li><li>Qu’est-ce qui me retient : la peur de rater, le regard des autres, autre chose ?</li><li>Quelle toute petite action pourrais-je faire dès aujourd’hui pour essayer ?</li><li>À qui puis-je en parler pour oser me lancer ?</li></ul>" }
   ]},
   { "jour": 11, "titre": "Les mouvements lycéens", "pierre": "bleue", "blocs": [
     { "type": "youtube", "id": "IKELe7WKV6A", "start": 12 }
@@ -54,7 +56,8 @@
     { "type": "texte", "html": "<ul class=\"questions\"><li>C'est quoi pour moi un chemin ?</li><li>Qu'est-ce que je mets dans mon sac à dos pour préparer mon itinéraire ?</li><li>Sur quoi vais-je me dépasser ?</li><li>De quoi ai-je besoin pour cela ?</li></ul>" }
   ]},
   { "jour": 17, "titre": "Citation n°3", "pierre": null, "blocs": [
-    { "type": "citation", "texte": "Je ne perds jamais : soit je gagne, soit j’apprends.", "auteur": "Nelson Mandela", "picto": "etoile" }
+    { "type": "citation", "texte": "Je ne perds jamais : soit je gagne, soit j’apprends.", "auteur": "Nelson Mandela", "picto": "etoile" },
+    { "type": "texte", "html": "<ul class=\"questions\"><li>Qu’est-ce que j’ai appris d’un échec récent ?</li><li>Comment puis-je regarder autrement ce qui n’a pas marché ?</li><li>Qui m’a aidé à me relever la dernière fois que j’ai raté quelque chose ?</li><li>Quelle chose vais-je faire différemment la prochaine fois ?</li></ul>" }
   ]},
   { "jour": 18, "titre": "Partage la Lumière en vrai", "pierre": "rouge", "blocs": [
     { "type": "texte", "html": "<p class=\"accroche\">Défi : d'ici Noël, partage la Lumière de la Paix de Bethléem en vrai.</p><p>Apporte-la à quelqu'un : un voisin, ta famille, une personne seule, une paroisse…</p>" }
