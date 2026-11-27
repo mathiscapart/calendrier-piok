@@ -1,4 +1,5 @@
 import { PICTOS } from './pictos.js';
+import { melanger } from './melange.js';
 
 // Couleur révélée à l'ouverture ; les jours sans pierre donnent un galet couleur sable.
 const COULEURS = {
@@ -130,16 +131,19 @@ function dessinerCairn(etat, nouveau) {
 }
 
 // --- les cases ---------------------------------------------------------------
+// Cases « en fouillis », toujours dans le même ordre (graine fixe) :
+// l'ordre du DOM est l'ordre affiché, donc la tabulation suit ce qu'on voit.
 function dessinerCases(etat, neuve) {
   const liste = $('#cases');
   liste.replaceChildren();
-  for (const d of etat.jours) {
+  for (const d of melanger(etat.jours, 2026)) {
     const dispo = d.jour <= etat.ouvertes;
     const ouvert = Boolean(ouverts[d.jour]);
     const aujourdhui = dispo && !ouvert && d.jour === etat.ouvertes && !etat.toutOuvert;
     const b = el('button', {
       type: 'button',
       class: `case${dispo ? ' dispo' : ''}${ouvert ? ' ouverte' : ''}${aujourdhui ? ' aujourdhui' : ''}${d.jour === neuve ? ' neuve' : ''}`,
+      'data-jour': d.jour,
       'aria-label': dispo ? `${d.jour} décembre : ${d.titre}${ouvert ? ', déjà ouverte' : ''}` : `${d.jour} décembre, pas encore ouverte`,
     });
     const teinte = ouvert ? COULEURS[d.pierre ?? null] : dispo ? 'var(--granite)' : 'var(--roc-nuit)';
@@ -546,4 +550,4 @@ dessinerCairn(etat);
 dessinerCases(etat);
 dessinerStatut(etat);
 // le 22 : le rappel de l'objectif s'ouvre tout seul
-if (etat.ouvertes >= 22 && !ouverts[22] && !etat.toutOuvert) ouvrir(22, etat, $('#cases li:nth-child(22) button'));
+if (etat.ouvertes >= 22 && !ouverts[22] && !etat.toutOuvert) ouvrir(22, etat, $('#cases [data-jour="22"]'));
