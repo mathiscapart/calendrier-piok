@@ -9,7 +9,7 @@
   ]},
   { "jour": 3, "titre": "Citation n°1", "pierre": null, "blocs": [
     { "type": "citation", "texte": "On n’arrive pas au sommet en dépassant les autres, mais en se dépassant soi-même.", "picto": "cairn" },
-    { "type": "texte", "html": "<ul class=\"questions\"><li>Aujourd’hui, avec qui ai-je tendance à me comparer ?</li><li>Quel petit pas puis-je faire pour me dépasser, moi, cette semaine ?</li></ul>" }
+    { "type": "texte", "html": "<ul class=\"questions\"><li>Aujourd’hui, avec qui ai-je tendance à me comparer ?</li><li>Qu’est-ce que cette comparaison m’apporte, ou me retire ?</li><li>Quel est mon « sommet » à moi, celui que j’ai envie d’atteindre ?</li><li>Quel petit pas puis-je faire pour me dépasser, moi, cette semaine ?</li></ul>" }
   ]},
   { "jour": 4, "titre": "Compostelle", "pierre": "blanche", "blocs": [
     { "type": "youtube", "id": "jPz6C3ezSX4" },
@@ -34,7 +34,7 @@
   ]},
   { "jour": 10, "titre": "Citation n°2", "pierre": null, "blocs": [
     { "type": "citation", "texte": "Si tu ne sais pas ce qui est possible pour ta vie, alors agis la réponse sera toujours dans l’action.", "picto": "montagne" },
-    { "type": "texte", "html": "<ul class=\"questions\"><li>Qu’est-ce que j’hésite à tenter parce que je ne sais pas si j’en suis capable ?</li><li>Quelle toute petite action pourrais-je faire dès aujourd’hui pour essayer ?</li></ul>" }
+    { "type": "texte", "html": "<ul class=\"questions\"><li>Qu’est-ce que j’hésite à tenter parce que je ne sais pas si j’en suis capable ?</li><li>Qu’est-ce qui me retient : la peur de rater, le regard des autres, autre chose ?</li><li>Quelle toute petite action pourrais-je faire dès aujourd’hui pour essayer ?</li><li>À qui puis-je en parler pour oser me lancer ?</li></ul>" }
   ]},
   { "jour": 11, "titre": "Les mouvements lycéens", "pierre": "bleue", "blocs": [
     { "type": "youtube", "id": "IKELe7WKV6A", "start": 12 }
@@ -57,7 +57,7 @@
   ]},
   { "jour": 17, "titre": "Citation n°3", "pierre": null, "blocs": [
     { "type": "citation", "texte": "Je ne perds jamais : soit je gagne, soit j’apprends.", "auteur": "Nelson Mandela", "picto": "etoile" },
-    { "type": "texte", "html": "<ul class=\"questions\"><li>Qu’est-ce que j’ai appris d’un échec récent ?</li><li>Comment puis-je regarder autrement ce qui n’a pas marché ?</li></ul>" }
+    { "type": "texte", "html": "<ul class=\"questions\"><li>Qu’est-ce que j’ai appris d’un échec récent ?</li><li>Comment puis-je regarder autrement ce qui n’a pas marché ?</li><li>Qui m’a aidé à me relever la dernière fois que j’ai raté quelque chose ?</li><li>Quelle chose vais-je faire différemment la prochaine fois ?</li></ul>" }
   ]},
   { "jour": 18, "titre": "Partage la Lumière en vrai", "pierre": "rouge", "blocs": [
     { "type": "texte", "html": "<p class=\"accroche\">Défi : d'ici Noël, partage la Lumière de la Paix de Bethléem en vrai.</p><p>Apporte-la à quelqu'un : un voisin, ta famille, une personne seule, une paroisse…</p>" }
