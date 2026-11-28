@@ -50,7 +50,7 @@
     { "type": "youtube", "id": "KREpxoLPL6M" }
   ]},
   { "jour": 15, "titre": "Le Père Noël", "pierre": null, "blocs": [
-    { "type": "youtube", "id": "" }
+    { "type": "video", "src": "15-video-noel.mp4" }
   ]},
   { "jour": 16, "titre": "La métaphore du chemin", "pierre": null, "blocs": [
     { "type": "texte", "html": "<ul class=\"questions\"><li>C'est quoi pour moi un chemin ?</li><li>Qu'est-ce que je mets dans mon sac à dos pour préparer mon itinéraire ?</li><li>Sur quoi vais-je me dépasser ?</li><li>De quoi ai-je besoin pour cela ?</li></ul>" }
@@ -82,7 +82,6 @@
   ]},
   { "jour": 24, "titre": "Le cairn", "pierre": null, "blocs": [
     { "type": "image", "src": "24-cairn.jpg", "alt": "Un cairn" },
-    { "type": "video", "src": "24-video-noel.mp4" },
     { "type": "lien", "url": "https://mapetiterando.fr/conseils/les-dangers-meconnus-des-cairns-en-randonnee-pourquoi-il-faut-absolument-les-eviter/", "picto": "cairn", "titre": "Les dangers méconnus des cairns", "texte": "Pourquoi il vaut mieux ne pas en construire en randonnée.", "label": "Lire l'article" }
   ]}
 ]
