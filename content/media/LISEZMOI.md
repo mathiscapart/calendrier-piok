@@ -5,7 +5,8 @@ Dépose ici les fichiers avec **exactement** ces noms (ils sont référencés da
 | Jour | Fichier |
 |---|---|
 | 1 | `01-video-explicative.mp4` (H.264 + AAC pour que ça marche sur iPhone) |
-| 24 | `24-cairn.jpg`, `24-video-noel.mp4` (H.264 + AAC) |
+| 15 | `15-video-noel.mp4` (H.264 + AAC) |
+| 24 | `24-cairn.jpg` |
 
 Tant qu'un fichier manque, la case affiche « arrive bientôt ».
 Un fichier n'est servi que le jour où sa case s'ouvre.
