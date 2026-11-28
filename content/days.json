@@ -82,6 +82,7 @@
   ]},
   { "jour": 24, "titre": "Le cairn", "pierre": null, "blocs": [
     { "type": "image", "src": "24-cairn.jpg", "alt": "Un cairn" },
+    { "type": "video", "src": "24-video-noel.mp4" },
     { "type": "lien", "url": "https://mapetiterando.fr/conseils/les-dangers-meconnus-des-cairns-en-randonnee-pourquoi-il-faut-absolument-les-eviter/", "picto": "cairn", "titre": "Les dangers méconnus des cairns", "texte": "Pourquoi il vaut mieux ne pas en construire en randonnée.", "label": "Lire l'article" }
   ]}
 ]
